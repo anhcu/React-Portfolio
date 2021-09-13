@@ -3,8 +3,8 @@ import '../styles/Navbar.css';
 
 function Navbar() {
     return (
-<div>Navbar</div>
-        );
-    }
-    
-    export default Navbar;
+        <div className='nav'>Navbar</div>
+    );
+}
+
+export default Navbar;
