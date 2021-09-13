@@ -3,8 +3,8 @@ import '../styles/Footer.css';
 
 function Footer() {
     return (
-<div>Footer</div>
-        );
-    }
-    
-    export default Footer;
+        <div className='footer'>Footer</div>
+    );
+}
+
+export default Footer;

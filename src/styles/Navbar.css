@@ -4,7 +4,8 @@ body{
 
 .nav{
     background-color: aqua;
-    height: 40px;
-    position: fixed;
+    height: 50px;
+    position: sticky;
     width: 100%;
+    top: 0;
 }

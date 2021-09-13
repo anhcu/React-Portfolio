@@ -3,7 +3,7 @@ import '../styles/Project.css';
 
 function Project() {
     return (
-<div>Project</div>
+<div className="project">Project</div>
         );
     }
     
