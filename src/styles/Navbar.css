@@ -1,12 +1,12 @@
 .nav{
     background-color: aqua;
     height: 50px;
-    position: sticky;
+    /* position: sticky; */
     width: 100%;
     top: 0;
     display: flex;
     align-items: center;
-    font-family: 'Glory', sans-serif;
+    font-family: 'neuzeit-grotesk', sans-serif;
     color: black;
 }
 
@@ -16,7 +16,7 @@
 
 
 .navLeft, .navRight{
-    flex: 2;
+    flex: 1;
 }
 
 .navC{

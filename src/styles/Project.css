@@ -1,4 +1,231 @@
-.project{
+/* .project{
     background-color: cornflowerblue;
     height: 100vh;
+} */
+
+
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #303336;
+    scroll-behavior: smooth;
+
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 640px;
+    background-color: #d1e8ee;
+}
+
+.project-text{
+    text-align: center;
+    color: black;
+    font-size: 5em;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-family: var(--fonts-style-x);
+    font-size: 2.25em;
+}
+
+h6 {
+    font-family: var(--fonts-style-x);
+    font-size: 1em;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ::selection {
+    color: #fff;
+    background-color: #005AEE;
+} */
+
+
+/* ------------- */
+/* Content Style */
+/* ------------- */
+
+.project-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 20px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #303336;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.project {
+    height: 470px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    /* box-shadow: 0 40px 40px -20px #8fc7d544; */
+    overflow: hidden;
+    box-shadow: -5px 10px 40px rgb(71, 71, 71);
+}
+
+.project .project-top {
+    height: 236px;
+    font-family: 'neuzeit-grotesk', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #303336;
+    background-color: #d1e8ee;
+    overflow: hidden;
+}
+
+.project .project-top a {
+    display: block;  
+    height: 100%;  
+}
+
+.project .project-top a img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: center; 
+    transition: 300ms;
+}
+
+.project .project-content {
+    padding: 10px;
+}
+
+.project .project-content .tag {
+    /* font-weight: 700; */
+    letter-spacing: 2px;
+}
+
+.project .tag-project {
+    color: red;
+}
+
+
+.project p {
+    color: #7B8591;
+    margin-top: 10px;
+}
+
+
+/* ---------------------------- */
+/* Content Style | Hover Effect */
+/* ---------------------------- */
+
+.project .project-top a img:hover {
+    opacity: .75;
+}
+
+.project .title:hover {
+    color: #303336bb;
+}
+
+/* Just Copy The Code Above */
+/* ======================== */
+
+
+/* Display this style when screen-width is lower than 1240px */
+@media only screen and (max-width: 1240px) {
+
+    main {
+        display: block;
+        height: auto;
+        min-height: max(640px, 100vh);
+        padding: 80px 0;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .project {
+        height: auto;
+    }
+
+}
+
+/* Display this style when screen-width is lower than 768px */
+@media only screen and (max-width: 768px) {
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Display this style when screen-width is lower than 425px */
+@media only screen and (max-width: 425px) {
+
+    .project-container {
+        padding: 20px;
+    }
+
+}
+
+
+/* ----------- */
+/* UI Designer */
+/* ----------- */
+
+.designer {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    font-weight: 400;
+    color: #46a2b9;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+.designer a {
+    text-decoration: none;
+    color: #23515d;
+}
+
+body:hover .designer {
+    opacity: 1;
 }
