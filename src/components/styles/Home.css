@@ -66,6 +66,14 @@ body {
   margin:0
 }
 
+.bg{
+  background-image: url(../img/backdrop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  min-height: calc( 100vh - 50px);
+}
+
 .header-title {
   text-align: right;
   color: #fff;
@@ -74,11 +82,13 @@ body {
   background-size: cover;
   overflow: hidden;
   margin-right: 40px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
-h1, p{
+
+.name, .web{
     line-height : 15px;
+    color: red;
 }
 
 .web{
@@ -104,12 +114,13 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  transition:all 0.4s
+  transition:all 0.4s;
+  margin-top: 380px;
 }
 
-h1:hover{
+/* h1:hover{
   color:#08c
-}
+} */
 
 
 

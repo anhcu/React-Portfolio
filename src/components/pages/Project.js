@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Project.css';
+import img from '../img/homepage.png';
 
 function Project() {
     return (
@@ -9,7 +10,7 @@ function Project() {
         <section class="project-container">
             <div class="project">
                 <div class="project-top">
-                    {/* <a href="/"><img src="/public/assets/img/homepage.png" alt="tattoo Photo"></a> */}
+                   <img src={"img"} alt=" Photo"/>
                 </div>
                 <div class="project-content">
                     <h4 class="tag tag-project">Charlie Cu Tattoo</h4>
