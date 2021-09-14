@@ -1,24 +1,23 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Card from './components/Card';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
-function App() {
-  return (
-    <div className='app'>
-    <Navbar/>
-    <div className='sections'>
-      <Header />
-      <Card />
-      <Project />
-      <Footer />
-    </div>
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+
+// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
+// function App() {
+//   return (
+//     <div className='app'>
+//     <Navbar/>
+//     <div className='sections'>
+//       <Header />
+//       <Card />
+//       <Project />
+//       <Contact />
+//     </div>
+//     </div>
+//   );
+// }
+
+// export default App;
