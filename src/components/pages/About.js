@@ -1,10 +1,17 @@
 import React from 'react';
 import '../styles/About.css';
 
+const styles= {
+  aboutStyle: {
+    background: 'red',
+    color: 'white'
+  }
+}
+
 
 export default function About() {
   return (
-    <div>
+    <div style={styles.aboutStyle} className='aboutMe'>
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

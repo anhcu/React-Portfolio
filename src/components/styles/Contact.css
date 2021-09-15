@@ -1,10 +1,154 @@
-.footer{
-    background-color: burlywood;
-    height: 50px;
-    display: flex;
-}
+.bio{
+    text-decoration: underline;
+    /* margin-bottom: 20px; */
+    font-size: 30px;
+    color: red;
+    margin-bottom: 30px;
+  }
+  
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 30px; /* change this to change the size*/
+  }
 
-.title, .contact{
-    flex:2;
-}
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  min-height: calc( 100vh - 50px);
+  background-color: orange;
+  }
+  
+  .card {
+  background-color: #fff;
+  max-width: 1000px;
+  box-shadow:0px 25px 50px rgba(0,0,0,.5);
+  border-radius: 8px;
+  display: grid;
+  /* grid-template-column: repeat(5, 1fr); */
+  }
+  
+  .card .img-container {
+    border-radius: 8px 0 0 8px;
+  width: 400px;
+  height: 100%;
+  grid-column: 2;
+  /* background-color: #c1b7b4; */
+  background-image: url('../img/profile.jpg');
+  background-size: cover;
+  background-position: center center;
+  }
 
+  .card-content {
+  grid-column: 3 / 5;
+  padding: 10px 30px;
+  border-left: 1px solid #ccc;
+  }
+  
+  .description p{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .name .author{
+    color: white;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  }
+  
+  h1 {
+  margin-bottom: 0;
+  }
+  
+  .social span a{
+    font-size: 30px;
+    margin: 0 20px;
+    display: inline-block;
+    display: -moz-inline-box;
+    justify-content: space-evenly;
+    width: 10%;
+    /* text-align: center; */
+    margin-bottom: 20px;
+    /* padding-left: 60px; */
+    /* color: #1086e8; */
+  }
+
+  .social{
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+/*   
+  .fa-linkedin-in{
+      color: black;
+  }
+  
+  .fa-github{
+      color: #171515;
+  }
+   */
+  
+  /* .fa-map-marker-alt{
+    color: black;
+  }
+  
+  .fa-linkedin{
+    color: #2867B2;
+  }
+  
+  .fa-github{
+    color: #171515;
+  }
+  
+  .fa-address-card{
+    color: black;
+  }
+  
+  .fa-envelope{
+    color: black;
+  } */
+  
+  .card-content .author p{
+  border-top: 1px solid #cdcdcd;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 25px 0 10px 0;
+  /* color: #555; */
+  }
+  
+  .name{
+     font-size: 20px;
+  }
+  
+  @media only screen and (max-width:600px) {
+  .card {
+      display: block;
+  }
+
+  .bio{
+    text-align: center;
+  }
+  .card .img-container {
+      height: 250px;
+      width: 100%;
+      border-radius: 8px  8px 0 0;
+  }
+  .card-content {
+      border: 0;
+      border-top: 1px solid #ccc;
+      height: 100vh;
+  }
+  }

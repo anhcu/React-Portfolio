@@ -1,18 +1,47 @@
 import React from 'react';
 import '../styles/Contact.css';
 
+const styles = {
+  email: {
+    color: 'black',
+  },
+  resume: {
+    color: 'black',
+  },
+};
+
+
 export default function Contact() {
-    return (
-      <div>
-        <h1>Contact Page</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+  return (
+    <div className="container">
+      <div className="card" id="bio">
+        <div className="img-container"></div>
+        <div className="card-content">
+          <h2 className="bio">Thank you</h2>
+          <div className="description">
+            <p>
+              Thank you for taking the time out of your busy schedule to view my portfolio.  I would love to join your wonderful team.  With my skills and qualifications, I’m a great candidate for this position.  I am committed to learning any new skills on my own to succeed in this role.
+            </p>
+            <div className="social">
+              <span>
+                <a href="https://github.com/anhcu"><i style={styles.email} className="fab fa-github"></i></a>
+              </span>
+              <span>
+                <a href="https://www.linkedin.com/in/anh-cu/"><i i style={styles.resume} className="fab fa-linkedin-in"></i></a>
+              </span>
+              <span>
+                <a href="https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing"><i i style={styles.resume} className="far fa-address-card"></i></a>
+              </span>
+              <span>
+                <a href="mailto:anhcu714@gmail.com"><i i style={styles.resume} className="far fa-envelope"></i></a>
+              </span>
+              <div className="name">
+                <p className="author"><b>Anh Cu</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
+}

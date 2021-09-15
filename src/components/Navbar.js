@@ -34,6 +34,9 @@ function Navbar({ currentPage, handlePageChange }) {
                     Project
                     </a>
                 </li>
+                {/* <li>
+                    <a href='https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing'>Resume</a>
+                </li> */}
                 <li className='listItem'>
                     <a
                     href='#Contact'
@@ -43,6 +46,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     Contact
                     </a>
                 </li>
+                
             </ul>
         </div>
     );

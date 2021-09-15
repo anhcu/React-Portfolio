@@ -4,7 +4,6 @@
 } */
 
 
-
 html,
 body {
     box-sizing: border-box;
@@ -15,9 +14,7 @@ body {
     line-height: 1.5;
     color: #303336;
     scroll-behavior: smooth;
-
 }
-
 
 *, *::before, *::after {
     box-sizing: inherit;
@@ -34,14 +31,23 @@ main {
     background-color: #d1e8ee;
 }
 
+.allProject{
+   background: url(https://images.unsplash.com/photo-1560762484-813fc97650a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: -10px 40px 60px rgb(71, 71, 71);
+    
+}
+
 .project-text{
     text-align: center;
-    color: black;
+    color: white;
+    opacity: .8;
     font-size: 5em;
-    font-family: 'neuzeit-grotesk', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    margin-top: 60px;
     margin-bottom: 60px;
+    padding-top: 60px;
 }
 
 h3 {
@@ -73,7 +79,7 @@ a {
 /* ------------- */
 
 .project-container {
-    position: relative;
+    /* position: relative; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
@@ -89,7 +95,10 @@ a {
     color: #303336;
     margin-left: 60px;
     margin-bottom: 60px;
+    padding-bottom: 60px;
+    
 }
+
 
 .project {
     height: 470px;
@@ -97,7 +106,7 @@ a {
     background-color: gainsboro;
     /* box-shadow: 0 40px 40px -20px #8fc7d544; */
     overflow: hidden;
-    box-shadow: -5px 10px 40px rgb(71, 71, 71);
+    box-shadow: -5px 10px 40px rgb(2, 2, 2);
 }
 
 .project .project-top {
@@ -117,9 +126,9 @@ a {
     height: 100%;  
 }
 
-.project .project-top a img {
+.project .project-top img {
     width: 100%;
-    height: inherit;
+    height: 100%;
     object-fit: cover;
     object-position: center; 
     transition: 300ms;
@@ -176,6 +185,7 @@ a {
         height: auto;
         margin: 0;
         padding: 40px;
+        /* background-color: green; */
     }
 
     .project {

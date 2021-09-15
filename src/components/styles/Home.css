@@ -70,7 +70,6 @@ body {
   background-image: url(../img/backdrop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
   min-height: calc( 100vh - 50px);
 }
 
@@ -85,15 +84,22 @@ body {
   /* margin-bottom: 40px; */
 }
 
+.header-title .name{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
 
 .name, .web{
-    line-height : 15px;
-    color: red;
+    line-height : 20px;
+    color: red; 
+    font-size: 40px;
 }
 
 .web{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
+    color: white;
 }
 
 body:before {
@@ -106,7 +112,6 @@ body:before {
   height: 100%;
   z-index: -1
 }
-
 
 h1 {
   width: 100%;
@@ -121,8 +126,6 @@ h1 {
 /* h1:hover{
   color:#08c
 } */
-
-
 
 .fa {
   display: inline-block;  
@@ -140,10 +143,8 @@ h1 {
   transition: all 0.4s;
 }
 
-
-
 .fa:hover {
-  color: white;  
+  color: blue;  
   border-color:inherit;
   background: rgba(0, 0, 0, 0.5);
 
