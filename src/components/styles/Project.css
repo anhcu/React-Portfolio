@@ -39,6 +39,10 @@ main {
     
 }
 
+.allProject .project-text{
+    overflow: hidden;
+}
+
 .project-text{
     text-align: center;
     color: white;
@@ -48,6 +52,7 @@ main {
     text-transform: uppercase;
     margin-bottom: 60px;
     padding-top: 60px;
+    overflow: hidden;
 }
 
 h3 {
@@ -104,9 +109,13 @@ a {
     height: 470px;
     border-radius: 10px;
     background-color: gainsboro;
-    /* box-shadow: 0 40px 40px -20px #8fc7d544; */
     overflow: hidden;
     box-shadow: -5px 10px 40px rgb(2, 2, 2);
+}
+
+.allProject, .project-text{
+    overflow: hidden;
+    /* position: fixed; */
 }
 
 .project .project-top {
@@ -216,7 +225,7 @@ a {
 /* ----------- */
 /* UI Designer */
 /* ----------- */
-
+/* 
 .designer {
     position: absolute;
     top: 20px;
@@ -234,7 +243,7 @@ a {
 .designer a {
     text-decoration: none;
     color: #23515d;
-}
+} */
 
 body:hover .designer {
     opacity: 1;

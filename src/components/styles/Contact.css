@@ -22,13 +22,13 @@
   align-items: center;
   padding: 80px;
   min-height: calc( 100vh - 50px);
-  background-color: orange;
+  background-color: #d3d3d3;
   }
   
   .card {
   background-color: #fff;
   max-width: 1000px;
-  box-shadow:0px 25px 50px rgba(0,0,0,.5);
+  box-shadow:0px 45px 80px rgba(0,0,0,.5);
   border-radius: 8px;
   display: grid;
   /* grid-template-column: repeat(5, 1fr); */
@@ -59,7 +59,7 @@
   }
   
   .name .author{
-    color: white;
+    color: black;
     margin-top: 10px;
   }
   
@@ -75,8 +75,9 @@
   
   .social span a{
     font-size: 30px;
-    margin: 0 20px;
+    margin: 0 40px;
     display: inline-block;
+    word-wrap:break-word;
     display: -moz-inline-box;
     justify-content: space-evenly;
     width: 10%;
@@ -140,15 +141,24 @@
 
   .bio{
     text-align: center;
+    font-size: 1rem;
   }
   .card .img-container {
-      height: 250px;
-      width: 100%;
-      border-radius: 8px  8px 0 0;
+    height: 250px;
+    width: 100%;
+    border-radius: 8px  8px 0 0;
   }
   .card-content {
-      border: 0;
-      border-top: 1px solid #ccc;
-      height: 100vh;
+    border: 0;
+    border-top: 1px solid #ccc;
+    height: 2000px;
   }
+  .card, .card-content{
+    height: 1100px;
+  }
+
+  .author{
+    text-align: center;
+  }
+
   }
