@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Home from './pages/Home';
+import About2 from './pages/About2';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
-
+import Footer from './Footer';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -12,6 +13,9 @@ export default function App() {
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
+    }
+    if (currentPage === 'About2') {
+      return <About2 />;
     }
     if (currentPage === 'About') {
       return <About />;
@@ -30,6 +34,12 @@ export default function App() {
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+
+      {/* Footer Component Will Render Here <Footer/> */}
+      <About2/>
+      <Project/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

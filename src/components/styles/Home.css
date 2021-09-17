@@ -127,7 +127,7 @@ h1 {
   color:#08c
 } */
 
-.fa {
+/* .fa {
   display: inline-block;  
   color: white;
   border:1px solid;
@@ -141,12 +141,12 @@ h1 {
   margin-left: 1em;
   background: rgba(0, 0, 0, 0);
   transition: all 0.4s;
-}
+} */
 
-.fa:hover {
+/* .fa:hover {
   color: blue;  
   border-color:inherit;
   background: rgba(0, 0, 0, 0.5);
 
-}
+} */
 
