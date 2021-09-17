@@ -1,8 +1,10 @@
-footer{
+
+
+.footer{
     text-align: center;
 }
 
-.footer li{
+.footer, li{
     word-spacing:20px;
     list-style-type: none;
 }
@@ -26,18 +28,14 @@ footer{
 .far:hover {
     color: blue;  
     border-color:inherit;
-    /* background: rgba(0, 0, 0, 0.5); */
 }
 
 .fab:hover {
     color: blue;  
     border-color:inherit;
-    /* background: rgba(0, 0, 0, 0.5); */
 }
 
 .fas:hover {
     color: blue;  
     border-color:inherit;
-    /* background: rgba(0, 0, 0, 0.5); */
 }
-  
