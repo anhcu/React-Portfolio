@@ -23,7 +23,7 @@ const styles = {
 };
 
 
-export default function Contact() {
+export default function About() {
   return (
     <div className="container">
       <div className="Card" id="bio">

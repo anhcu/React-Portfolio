@@ -11,16 +11,25 @@ function Navbar({ currentPage, handlePageChange }) {
                     <a
                         href='#Home'
                         onClick={() => handlePageChange('Home')}
-                        className={currentPage === 'Home' ? 'nva-link active' : 'nav-link'}
+                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                     >
                     Home
                     </a>
                 </li>
-                <li className='listItem'>
+                {/* <li className='listItem'>
                     <a
                         href='#About'
                         onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'About2' ? 'nav-link active' : 'nav-link'}
+                    >
+                    About
+                    </a>
+                </li> */}
+                <li className='listItem'>
+                    <a
+                        href='#About2'
+                        onClick={() => handlePageChange('About2')}
+                        className={currentPage === 'About2' ? 'nav-link active' : 'nav-link'}
                     >
                     About
                     </a>
@@ -36,7 +45,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     </a>
                 </li>
                 {/* <li>
-                    <a href='https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing'>Resume</a>
+                    <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing'>Resume</a>
                 </li> */}
                 <li className='listItem'>
                     <a

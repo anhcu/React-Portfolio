@@ -8,6 +8,7 @@
     align-items: center;
     font-family: 'neuzeit-grotesk', sans-serif;
     color: black;
+z-index: 1;
 }
 
 .navLeft{

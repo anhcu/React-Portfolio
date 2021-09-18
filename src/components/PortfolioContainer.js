@@ -11,14 +11,14 @@ export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
     if (currentPage === 'Home') {
       return <Home />;
     }
     if (currentPage === 'About2') {
       return <About2 />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
     }
     if (currentPage === 'Project') {
       return <Project />;
@@ -36,9 +36,7 @@ export default function App() {
       {renderPage()}
 
       {/* Footer Component Will Render Here <Footer/> */}
-      <About2/>
-      <Project/>
-      <Contact/>
+      
       <Footer/>
     </div>
   );

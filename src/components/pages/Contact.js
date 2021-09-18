@@ -13,7 +13,7 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div className="container">
+    <div className="containerContact ">
       <div className="card" id="bio">
         <div className="img-container"></div>
         <div className="card-content">

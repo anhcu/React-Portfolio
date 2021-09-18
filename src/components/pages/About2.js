@@ -15,7 +15,7 @@ export default function About2() {
                 <span class="phone">Phone: </span>
                 <span class="phone-val">404-518-3986</span>
                 <span class="separator"></span>
-                <span> <a href="https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing"></a>Resume</span>
+                <span> <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/12aLqDhG_LwmI-iwMubeUAxy4WYtasoBdI4JusfkhF8M/edit?usp=sharing'>Resume</a></span>
 
 
             </div>
