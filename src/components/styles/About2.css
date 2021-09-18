@@ -110,8 +110,9 @@
     width: 39%;    
 }
 
-.name {
+.nameAbout {
     font-weight: bold;
+    color: red;
 }
 
 /* a {

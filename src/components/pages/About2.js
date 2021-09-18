@@ -37,12 +37,12 @@ export default function About2() {
                     <div class="section__list">
                         <div class="section__list-item">
                             <div class="left">
-                                <div class="name">Georgia Tech</div>
+                                <div class="nameAbout">Georgia Tech</div>
                                 <div class="addr">Atlanta, GA</div>
                                 <div class="duration">Oct 2021</div>
                             </div>
                             <div class="right">
-                                <div class="name">Full Stack Web Developer </div>
+                                <div class="nameAbout">Full Stack Web Developer </div>
                                 <div class="desc">Certification</div>
                             </div>
                         </div>
@@ -52,12 +52,12 @@ export default function About2() {
 
             <div class="section__list-item">
                 <div class="left">
-                    <div class="name">Colorado Tech</div>
+                    <div class="nameAbout">Colorado Tech</div>
                     <div class="addr">Denver, CO</div>
                     <div class="duration">Jan 2018 - Feb 2019</div>
                 </div>
                 <div class="right">
-                    <div class="name">Computer Science</div>
+                    <div class="nameAbout">Computer Science</div>
                     <div class="desc">General Study</div>
                 </div>
                 <hr></hr>
@@ -68,11 +68,11 @@ export default function About2() {
                 <div class="section__list">
                     <div class="section__list-item">
                         <div class="left">
-                            <div class="name">Charlie Cu Tattoo Website</div>
+                            <div class="nameAbout">Charlie Cu Tattoo Website</div>
                             <div class="addr">Atlanta, GA</div>
                         </div>
                         <div class="right">
-                            <div class="name">Display Website</div>
+                            <div class="nameAbout">Display Website</div>
                             <div class="desc">Displaying artist latest work.</div>
                         </div>
                     </div>
@@ -80,12 +80,12 @@ export default function About2() {
             </div>
             <div class="section__list-item">
                 <div class="left">
-                    <div class="name">Northside Hospital</div>
+                    <div class="nameAbout">Northside Hospital</div>
                     <div class="addr">Atlanta, GA</div>
                     <div class="duration">Oct 2014 - Dec 2020</div>
                 </div>
                 <div class="right">
-                    <div class="name">ER Tech</div>
+                    <div class="nameAbout">ER Tech</div>
                     <div class="desc">Data logging and concurrent documentation.</div>
                 </div>
                 <hr></hr>
