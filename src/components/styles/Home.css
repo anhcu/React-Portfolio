@@ -1,81 +1,23 @@
-/* .header{
-    background-color: blue;
-    margin-top: 80px;
-    height: 100vh;
-    color: white;
-} */
-
-/* 
-a{
-  color:inherit
-} */
-
-/* h4 {
-  display: block;
-  width: 100%;
-  margin-bottom: 4vh;
-  font-size:1em;
-  margin-right: 40px;
-} */
-
-/* .fa:nth-of-type(2):hover {
-  color: #09c;
-  border-color:inherit
-} */
-
-/* .fa:nth-of-type(3):hover {
-  color: #d19;
-  border-color:inherit
-  
-} */
-
-/* .fa:nth-of-type(4):hover {
-  color: #e90;
-  border-color:inherit
-} */
-
-/* .fa:nth-of-type(5):hover {
-  color: #0c6;
-  border-color:inherit
-} */
-
-/* footer{
-  font-size: 0.7em;  
-  text-align: center;  
-  color: #666;  background:rgba(0,0,0,0.4); 
-  width: 100vw;  
-  position: absolute; 
-  bottom: 0px;  
-  padding:0.8em 0;
-}
-.white{
-  color:#333
-}
-.white:before{
-  background: rgba(240, 240, 240, 0.8);
-}
-.white footer, .white .fa:hover{
-  background-color:rgba(250, 250, 2520, 0.4);
-} */
-
-/****Test****/
 
 html,
 body {
   height: 100%;
-  margin:0
+  margin:0;
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/abstract_white_background_266417.jpg);
 }
 
 .bg{
   background-image: url(../img/bg.jpg);
-  background-position: center bottom; 
+  background-position: center top; 
   background-repeat: no-repeat;
   background-size: cover;
   min-height: calc( 100vh - 50px);
+  /* opacity: .85; */
+
 }
 
 .header-title {
-  text-align: right;
+  text-align: center;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size:15px;
@@ -90,17 +32,19 @@ body {
   margin-bottom: 15px;
 }
 
-
 .name, .web{
     line-height : 20px;
-    color: red; 
+    color: #01FE01; 
     font-size: 40px;
+    text-align: left;
+
 }
 
 .web{
     font-size: 30px;
     margin-bottom: 10px;
-    color: white;
+    color: #01FE01;
+    font-weight: bold;
 }
 
 body:before {
@@ -123,30 +67,5 @@ h1 {
   margin-top: 380px;
 }
 
-/* h1:hover{
-  color:#08c
-} */
 
-/* .fa {
-  display: inline-block;  
-  color: white;
-  border:1px solid;
-  text-decoration: none;
-  padding-top: 12px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 20%;
-  box-sizing: border-box;
-  margin-left: 1em;
-  background: rgba(0, 0, 0, 0);
-  transition: all 0.4s;
-} */
-
-/* .fa:hover {
-  color: blue;  
-  border-color:inherit;
-  background: rgba(0, 0, 0, 0.5);
-
-} */
 
