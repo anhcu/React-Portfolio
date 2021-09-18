@@ -67,7 +67,8 @@ body {
 }
 
 .bg{
-  background-image: url(../img/backdrop.jpg);
+  background-image: url(../img/bg.jpg);
+  background-position: center bottom; 
   background-repeat: no-repeat;
   background-size: cover;
   min-height: calc( 100vh - 50px);

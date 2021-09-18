@@ -56,16 +56,6 @@ a {
     text-decoration: none;
 }
 
-/* ::selection {
-    color: #fff;
-    background-color: #005AEE;
-} */
-
-
-/* ------------- */
-/* Content Style */
-/* ------------- */
-
 .project-container {
     /* position: relative; */
     display: grid;
@@ -83,17 +73,15 @@ a {
     color: #303336;
     margin-left: 60px;
     margin-bottom: 60px;
-    padding-bottom: 60px;
-    
+    /* padding-bottom: 60px; */  
 }
-
 
 .project {
     height: 470px;
     border-radius: 10px;
     background-color: gainsboro;
     overflow: hidden;
-    box-shadow: -5px 10px 40px rgb(2, 2, 2);
+    box-shadow:0px 25px 40px rgba(0,0,0,.5);
 }
 
 .allProject{
@@ -157,9 +145,6 @@ a {
 .project .title:hover {
     color: #303336bb;
 }
-
-/* Just Copy The Code Above */
-/* ======================== */
 
 
 /* Display this style when screen-width is lower than 1240px */

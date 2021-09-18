@@ -7,6 +7,7 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 
+
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -36,7 +37,6 @@ export default function App() {
       {renderPage()}
 
       {/* Footer Component Will Render Here <Footer/> */}
-      
       <Footer/>
     </div>
   );
